@@ -534,7 +534,7 @@
         pointLight.intensity = 0.6;
         pointLight.diffuse = new BABYLON.Color3(1, 1, 1);
 
-        BABYLON.SceneLoader.Append("", "LagoCalimaCelsia.glb", scene, function (scene) {
+        BABYLON.SceneLoader.Append("", "LagoCalimaCelsiafinal.glb", scene, function (scene) {
           scene.meshes.forEach(mesh => {
             if (!mesh.parent) {
               mesh.scaling = new BABYLON.Vector3(-0.01, 0.01, 0.01);
